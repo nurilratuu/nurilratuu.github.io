@@ -8,10 +8,12 @@ import EU from './views/eu'
 import SmartWarehouse from './views/smart-warehouse'
 import Conversa from './views/conversa'
 import Salyns from './views/salyns'
+import ScrollToTop from './components/scrollToTop'
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop></ScrollToTop>
       <div>
         <Route component={Home} exact path="/" />
         <Route component={EU} exact path="/eu" />
