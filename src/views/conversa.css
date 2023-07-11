@@ -1,0 +1,760 @@
+.conversa-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.conversa-chatbot-maker {
+  width: 100%;
+  height: 10444px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(39, 39, 39, 1);
+}
+.conversa-frame3126 {
+  top: 0px;
+  left: 385px;
+  width: 1150px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame3125 {
+  gap: 755px;
+  display: flex;
+  padding: 0 24px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.conversa-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-menu-navbar {
+  gap: 33px;
+  width: 262px;
+  display: flex;
+  padding: 10px 48px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.conversa-text002 {
+  color: rgba(209, 209, 209, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Extra Bold;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 80.5px;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.conversa-text004 {
+  color: rgba(209, 209, 209, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 80.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-border-bottom-navbar {
+  width: 1150px;
+  height: 1px;
+  align-self: stretch;
+}
+.conversa-frame9242 {
+  gap: 132px;
+  top: 181px;
+  left: 380px;
+  width: 1160px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.conversa-frame24 {
+  gap: 80px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame23 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text006 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 56px;
+}
+.conversa-frame111 {
+  gap: 37px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.conversa-frame3129 {
+  gap: 37px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.conversa-rectangle10 {
+  width: 12px;
+  height: 173px;
+}
+.conversa-text008 {
+  color: rgba(212, 212, 212, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1058 {
+  width: 658px;
+  height: 334px;
+}
+.conversa-frame17 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text010 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Sora;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-frame16 {
+  gap: 24px;
+  width: 1139px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.conversa-frame13 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text012 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text014 {
+  color: rgba(212, 212, 212, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-frame14 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text016 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text018 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-frame15 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text027 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text029 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-frame18 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text040 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Sora;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-frame161 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text042 {
+  color: rgba(255, 255, 255, 1);
+  width: 1126px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-frame19 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text055 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Sora;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-frame162 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame131 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text057 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text059 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1062 {
+  width: auto;
+  height: 808px;
+  align-self: stretch;
+}
+.conversa-frame171 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame132 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text061 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text063 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1063 {
+  width: 1156px;
+  height: 281px;
+}
+.conversa-frame181 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text065 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text067 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-frame191 {
+  gap: 24px;
+  height: 646px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.conversa-frame133 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text078 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text080 {
+  color: rgba(255, 255, 255, 1);
+  width: 1140px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1059 {
+  width: auto;
+  height: 493px;
+  align-self: stretch;
+}
+.conversa-frame20 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame134 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text082 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text084 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1064 {
+  width: 1157px;
+  height: 721px;
+}
+.conversa-frame201 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text086 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Sora;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-frame163 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame135 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text088 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text090 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1054 {
+  width: 1151px;
+  height: 764px;
+}
+.conversa-frame172 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame9153 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame136 {
+  width: 1151px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.conversa-text092 {
+  color: rgba(250, 250, 250, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-frame3128 {
+  gap: 24px;
+  width: 1151px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.conversa-text094 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image10581 {
+  width: 1151px;
+  height: 585px;
+}
+.conversa-frame182 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame9203 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text096 {
+  color: rgba(250, 250, 250, 1);
+  width: 1151px;
+  height: auto;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text098 {
+  color: rgba(255, 255, 255, 1);
+  width: 1151px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1060 {
+  width: 1160px;
+  height: 676px;
+}
+.conversa-frame192 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-frame9238 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text100 {
+  color: rgba(250, 250, 250, 1);
+  width: 1160px;
+  height: auto;
+  text-align: left;
+  line-height: 72px;
+}
+.conversa-text102 {
+  color: rgba(255, 255, 255, 1);
+  width: 1160px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1061 {
+  width: 1160px;
+  height: 606px;
+}
+.conversa-frame21 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text104 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Sora;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-frame164 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text106 {
+  color: rgba(255, 255, 255, 1);
+  width: 1138px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-image1070 {
+  width: 1153px;
+  height: 985px;
+}
+.conversa-frame241 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text108 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Sora;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-frame165 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.conversa-text110 {
+  color: rgba(255, 255, 255, 1);
+  width: 1152px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-frame3127 {
+  gap: 24px;
+  width: 1150px;
+  display: flex;
+  padding: 19px 0;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.conversa-border-bottom-navbar1 {
+  width: 1150px;
+  height: 1px;
+  align-self: stretch;
+}
+.conversa-frame31251 {
+  gap: 755px;
+  display: flex;
+  padding: 0 24px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.conversa-frame9239 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+.conversa-text112 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.conversa-text113 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.conversa-icon-list {
+  gap: 21px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.conversa-icoutlineemail {
+  width: 33px;
+  height: 33px;
+}
+.conversa-frame {
+  width: 32px;
+  height: 32px;
+}
+.conversa-remixiconsfilllogoslinkedinboxfill {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.conversa-group {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.conversa-vector {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+.conversa-vector1 {
+  top: 4.125px;
+  left: 4.125px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .conversa-frame3126 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .conversa-frame9242 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
