@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "rm -rf docs && craco build && mv build docs",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import './home.css'
+import Navbar from '../components/navbar'
 
 const Home = (props) => {
   return (
@@ -13,26 +14,7 @@ const Home = (props) => {
         <meta property="og:title" content="Nuril Ratu" />
       </Helmet>
       <div className="home-homepage-desktop">
-        <div className="home-frame3126">
-          <div className="home-frame3125">
-            <span className="home-text">
-              <span>nurilratu</span>
-            </span>
-            <div className="home-menu-navbar">
-              <span className="home-text002">
-                <span>Portfolio</span>
-              </span>
-              <span className="home-text004">
-                <span>Resume</span>
-              </span>
-            </div>
-          </div>
-          <img
-            alt="BorderBottomNavbar2131"
-            src="/external/borderbottomnavbar2131-5q6p.svg"
-            className="home-border-bottom-navbar"
-          />
-        </div>
+        <Navbar></Navbar>
         <div className="home-frame9241">
           <div className="home-frame3122">
             <div className="home-hero-text-section"></div>

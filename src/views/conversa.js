@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import './conversa.css'
+import Navbar from '../components/navbar'
 
 const Conversa = (props) => {
   return (
@@ -12,26 +13,7 @@ const Conversa = (props) => {
         <meta property="og:title" content="Conversa - Nuril Ratu" />
       </Helmet>
       <div className="conversa-chatbot-maker">
-        <div className="conversa-frame3126">
-          <div className="conversa-frame3125">
-            <span className="conversa-text">
-              <span>nurilratu</span>
-            </span>
-            <div className="conversa-menu-navbar">
-              <span className="conversa-text002">
-                <span>Portfolio</span>
-              </span>
-              <span className="conversa-text004">
-                <span>Resume</span>
-              </span>
-            </div>
-          </div>
-          <img
-            alt="BorderBottomNavbar339"
-            src="/external/borderbottomnavbar339-apr.svg"
-            className="conversa-border-bottom-navbar"
-          />
-        </div>
+        <Navbar></Navbar>
         <div className="conversa-frame9242">
           <div className="conversa-frame24">
             <div className="conversa-frame23">

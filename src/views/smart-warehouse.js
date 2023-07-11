@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import './smart-warehouse.css'
+import Navbar from '../components/navbar'
 
 const SmartWarehouse = (props) => {
   return (
@@ -15,26 +16,7 @@ const SmartWarehouse = (props) => {
         />
       </Helmet>
       <div className="smart-warehouse-smart-warehouse">
-        <div className="smart-warehouse-frame3126">
-          <div className="smart-warehouse-frame3125">
-            <span className="smart-warehouse-text">
-              <span>nurilratu</span>
-            </span>
-            <div className="smart-warehouse-menu-navbar">
-              <span className="smart-warehouse-text02">
-                <span>Portfolio</span>
-              </span>
-              <span className="smart-warehouse-text04">
-                <span>Resume</span>
-              </span>
-            </div>
-          </div>
-          <img
-            alt="BorderBottomNavbar2133"
-            src="/external/borderbottomnavbar2133-zqf.svg"
-            className="smart-warehouse-border-bottom-navbar"
-          />
-        </div>
+        <Navbar></Navbar>
         <div className="smart-warehouse-frame9244">
           <div className="smart-warehouse-frame24">
             <div className="smart-warehouse-frame23">

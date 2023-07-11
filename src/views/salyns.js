@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import './salyns.css'
+import Navbar from '../components/navbar'
 
 const Salyns = (props) => {
   return (
@@ -12,26 +13,7 @@ const Salyns = (props) => {
         <meta property="og:title" content="Salyns - Nuril Ratu" />
       </Helmet>
       <div className="salyns-speechto-text">
-        <div className="salyns-frame3126">
-          <div className="salyns-frame3125">
-            <span className="salyns-text">
-              <span>nurilratu</span>
-            </span>
-            <div className="salyns-menu-navbar">
-              <span className="salyns-text02">
-                <span>Portfolio</span>
-              </span>
-              <span className="salyns-text04">
-                <span>Resume</span>
-              </span>
-            </div>
-          </div>
-          <img
-            alt="BorderBottomNavbar4686"
-            src="/external/borderbottomnavbar4686-zier.svg"
-            className="salyns-border-bottom-navbar"
-          />
-        </div>
+        <Navbar></Navbar>
         <div className="salyns-frame9243">
           <div className="salyns-frame24">
             <div className="salyns-frame23">

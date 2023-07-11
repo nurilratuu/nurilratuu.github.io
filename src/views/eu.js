@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import './eu.css'
+import Navbar from '../components/navbar'
 
 const EU = (props) => {
   return (
@@ -12,26 +13,7 @@ const EU = (props) => {
         <meta property="og:title" content="EU - Nuril Ratu" />
       </Helmet>
       <div className="eu-enterprise-university">
-        <div className="eu-frame3126">
-          <div className="eu-frame3125">
-            <span className="eu-text">
-              <span>nurilratu</span>
-            </span>
-            <div className="eu-menu-navbar">
-              <span className="eu-text002">
-                <span>Portfolio</span>
-              </span>
-              <span className="eu-text004">
-                <span>Resume</span>
-              </span>
-            </div>
-          </div>
-          <img
-            alt="BorderBottomNavbar2132"
-            src="/external/borderbottomnavbar2132-3la9.svg"
-            className="eu-border-bottom-navbar"
-          />
-        </div>
+        <Navbar></Navbar>
         <div className="eu-frame9240">
           <div className="eu-frame24">
             <div className="eu-frame23">

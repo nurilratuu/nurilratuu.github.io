@@ -127,3 +127,7 @@
   font-weight: 400px;
   font-stretch: normal;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
